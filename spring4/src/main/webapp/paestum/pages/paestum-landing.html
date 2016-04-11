@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hello World, JSON+HTML, DIV+HTML, IFRAME+HTML Cards</title>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-animate.js"></script>
+		
+	<!-- script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.min.js"></script -->
+	
+	<style>
+		.channel {
+			cursor: pointer;
+			background-color: #D8D8D8;
+			padding: 5px 10px;
+			border: 1px solid gray;
+		}
+		.channel.selected {
+			background-color: #F3F781;
+		}
+		
+		a {
+			cursor: pointer;
+			color: blue;
+		}
+	
+	</style>
+	
+</head>
+<body ng-app="frPaestumApp">
+	<div ng-controller="LandingPageController" id="landing-controller" >
+		imgPath -> {{imgPath}}
+		<div style="float: left; width: 200px; border: 1px solid #333333; margin: 5px; padding: 10px;">
+			<b>Menu</b>
+			<br />
+			<ul>
+				<li class="ng-cloak channel" ng-repeat="channel in data.channelList" c-id="{{channel.id}}" ng-click="showChannelView(channel)" ng-class="{'selected': (channel.id == channelToRender.id)}">
+					{{channel.name}}
+					<ul>
+						<li ng-repeat="item in channel.items">{{item.name}}</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div style="float: left; width: 620px; border: 1px solid #333333; margin: 5px; padding: 10px;">
+			<div id="jqi-data-banner">show banner</div>
+			
+			<b>Data</b>
+			
+			<span ng-controller="InterestSetupController">
+				| <a ng-click="interestSetup()">Setup</a>
+			</span>
+			<br /><br />
+			<div id="jqi-data"></div>
+		</div>
+
+	</div>
+</body>
+
+<script type="text/javascript">
+	var FREnv = {};
+	var frPaestumApp = angular.module('frPaestumApp', ['ngSanitize', 'ngAnimate'])
+	.run(function($rootScope) {
+		FREnv.$rootScope = $rootScope;
+		$rootScope.imgPath = 'http://ykumar-dl-in:8080/spring4';
+		/* $rootScope.$watch('channelToRender', function(newValue, oldValue) {
+			console.info(newValue);
+			console.info(oldValue);
+			console.info("----------");
+		}); */
+	})
+	.service('HTTPInterceptor', function() {
+	    var service = this;
+	    service.request = function(config) { 
+	    	config.url += "?code=" + "XYZ";
+	    	if(config.method.toUpperCase() == "GET") {
+	    		config.url += "&_=" + new Date().getTime();
+	    	}
+	    	return config;
+	    };
+	    service.responseError = function(response) {
+	        return response;
+	    };
+	    
+	})
+	.config(function($httpProvider) {
+    	$httpProvider.interceptors.push('HTTPInterceptor');
+	}).config(['$locationProvider', function($locationProvider){
+		$locationProvider.html5Mode({
+			  enabled: false,
+			  requireBase: false
+			}).hashPrefix('!');
+	}]);;
+	
+	
+	frPaestumApp.controller('LandingPageController', [
+		'$scope', '$http', '$compile', '$element', '$location',
+		function($scope, $http, $compile, $element, $location) {
+			
+			$.ajax({
+				method: "GET",
+				url: "../jsondata/user_channels.json",
+				async: false
+			}).success(function(res) {
+				$scope.data = res.data;
+			});
+			
+			/* 
+			$.get("../jsondata/user_channels.json")
+			.success(function(res) {
+				$scope.data = res.data;
+				
+				//FREnv.$rootScope.channelToRender = $scope.data.channelList[0];
+				//$scope.showChannelView(FREnv.$rootScope.channelToRender);
+			});
+			 */
+			$scope.showChannelView = function(channel) {
+				//FREnv.$rootScope.channelToRender.abc = "test";
+				$scope.currentChannel = FREnv.$rootScope.channelToRender = channel;
+				
+				console.info($location);
+				
+				var search = $location.search();
+				$location.search({"id": FREnv.$rootScope.channelToRender.id});
+			};
+			
+			$scope.renderSummary = function() {
+				var html = "<fr-channel current_channel='::currentChannel' channel_to_render='::channelToRender'></fr-channel>";
+				var content = $compile(html)($scope);
+				$("#jqi-data").html(content);				
+			};
+			
+			
+			$scope.$on("$locationChangeSuccess", function (event) {
+				var search = $location.search();
+				console.info($location.search());
+				
+				var found = false;
+				$.each($scope.data.channelList, function(index, channel) {
+					if(channel.id == search.id) {
+						$scope.showChannelView(channel);
+						$scope.renderSummary();
+						found = true;
+						return false;
+					}					
+				});
+				if(found === false) {
+					$scope.showChannelView( $scope.data.channelList[0] );
+					$scope.renderSummary();
+				}
+			});
+			
+		}
+	]);
+	
+	frPaestumApp.controller('InterestSetupController', [
+   		'$scope', '$http', '$compile', '$element',
+   		function($scope, $http, $compile, $element) {
+   			$scope.interestSetup = function() {
+   				$http.get("../ng-templates/set-up.html")
+   				.success(function(res) {
+   					var content = $compile(res)($scope);
+   					$("#jqi-data").html(content);
+   				});	
+   			};
+   			
+			$scope.interestUpdate = function() {
+				$scope.channelToRender.items = []; 
+   				$("input[name=interest]").each(function() {
+   					var val = $(this).val();
+   					if(val) {
+   						$scope.channelToRender.items.push({"name": val});
+   					}
+   				});
+   				$scope.showChannelView($scope.channelToRender);
+   			};
+   		}
+   	]);
+	
+	frPaestumApp.directive('frChannel', ['$compile', '$http', function($compile, $http) {
+    	return {
+        	restrict: 'E',
+        	scope: {
+        		currentChannel: "=",
+        		channelToRender: "="
+        	},
+            controller: ['$scope', function($scope) {
+            	if(!$scope.channelToRender.cards) {
+	            	$http.get("../jsondata/channel_cards.json?channelId=" + $scope.channelToRender.id)
+					.success(function(res) {
+						$scope.channelToRender.cards = res.data.cardList;
+					});
+            	}
+            }],
+            template: "<div ng-repeat='card in channelToRender.cards'>"
+            	+"<fr-card card='card' current_channel='currentChannel' channel_to_render='channelToRender'></fr-card>"
+            	+"</div>"
+        };
+	}]);
+	
+	CNT = 0;
+	frPaestumApp.directive('frCard', ['$rootScope', '$compile', '$http', 'cardProcessing', function($rootScope, $compile, $http, cardProcessing) {
+    	return {
+        	restrict: 'E',
+            scope: {
+            	card: "=",
+            	channelToRender: "="
+           	},
+            controller: ['$scope', function($scope) {
+            	console.log('imgPath->' + $rootScope.imgPath);
+            	var success = function(res) {
+            		$scope.res = res;
+            	};
+            	
+            	var error = function(res) { };
+            	cardProcessing($scope.channelToRender, $scope.card, success, error);
+            }],
+            compile: function(ele, attrs) {
+            	return function ($scope, element, attrs) {
+           	      	$http.get($scope.card.template)
+           	      	.success(function(html) {
+           	      		element.html($compile(html)($scope));
+           	        });
+            	};
+            }
+            /*
+            templateUrl: function(elem, attr) {
+				return '../ng-templates/who_to_call.html?_='+(CNT++);
+			}
+           	
+            link: function ($scope, element, attrs) {
+       	      	$http.get($scope.card.template)
+       	      	.success(function(res) {
+       	      		element.html(res);
+       	        	$compile(element.contents())($scope);
+       	        });
+            }
+			*/
+            
+        };
+ 	}]);
+	
+	frPaestumApp.directive('socialSharing', ['$compile', '$http', function($compile, $http) {
+    	return {
+        	restrict: 'E',
+            scope: {
+            	card: "=",
+            	channelToRender: "="
+           	},
+           	controller: ['$scope', function($scope) {
+           		//console.log($scope.card);
+           		//console.log($scope.channelToRender);
+           		$scope.meta = $scope.channelToRender.meta;
+           		
+           		$scope.email = function() {
+           			alert("email:" + $scope.card.name + " => " + $scope.channelToRender.name);
+           		};
+           		$scope.twitter = function() {
+           			alert("twitter:" + $scope.card.name + " => " + $scope.channelToRender.name);
+           		};
+           		$scope.chatter = function() {
+           			alert("chatter:" + $scope.card.name + " => " + $scope.channelToRender.name);
+           		};
+           		$scope.yammer = function() {
+           			alert("yammer:" + $scope.card.name + " => " + $scope.channelToRender.name);
+           		};
+            }],
+            template: "<div><a ng-if='meta.email' ng-click='email()'>Email</a> | <a ng-if='meta.twitter' ng-click='twitter()'>Twitter</a> | <a ng-if='meta.chatter' ng-click='chatter()'>Chatter</a> | <a ng-if='meta.yammer' ng-click='yammer()'>Yammer</a></div>"
+        };
+ 	}]);
+	
+	/*
+	function CardImpl($scope, $http, channel, card) {
+		var cardImpl = {
+			method: "GET",	
+			channel: channel,
+			card: card,
+			params: {"channelId": channel.id, "channelType": channel.type, "cardId": card.id, "cardType": card.type},
+			addParam: function(key, val) {
+				this.params[key] = val;
+				return this;
+			},
+			getData: function() {
+				var _this = this;
+				if(_this.method.toUpperCase() == "GET") {
+					_this.addParam("_", new Date().getTime());
+					return $http.get(_this.card.service, {"params": _this.params});
+				} else {
+					return $http.post(_this.card.service, _this.params);
+				}
+			},
+			postProcess: function() { }
+		};
+		
+		if(cardImpl.card.type == "WHO_TO_CALL") {
+			cardImpl.addParam("param1", "v1").addParam("param2", "v2");
+			cardImpl.method = "POST",
+			cardImpl.postProcess = function() {
+				console.log("who to call - post processing");
+			};
+		} else if(cardImpl.card.type == "REASONS_TO_CALL") {
+			cardImpl.addParam("rtc", true).addParam("count", 113);
+		} else if(cardImpl.card.type == "TRENDING_ENTITIES") {
+			
+		} else if(cardImpl.card.type == "MY_NETWORKS") {
+			
+		}
+		
+		cardImpl.getData()
+		.success(function(res) {
+			$scope.res = res;
+			setTimeout(function() { cardImpl.postProcess(res); }, 100);
+		});
+	}
+	*/
+	
+	frPaestumApp.factory('cardProcessing', ['$http', '$timeout', function($http, $timeout) {
+		return function (channel, card, success, error) {
+			var cardMeta = {
+				params: {"channelId": channel.id, "channelType": channel.type, "cardId": card.id, "cardType": card.type},
+				method: "GET",
+				url: (card.service || "getCardData"),
+				addParam: function(key, val) {
+					this.params[key] = val;
+					return this;
+				},
+				getData: function() {
+					var _this = this;
+					if(_this.method.toUpperCase() == "GET") {
+						return $http.get(_this.url, {"params": _this.params});
+					} else {
+						return $http.post(_this.url, _this.params);
+					}
+				},
+				postProcess: function() { },
+				postProcessDelayed: function() { },
+				postProcessDelay: 100
+			};
+			
+			/**
+				override card specific requirements e.g.	
+				if(card.type == "XYZ") {
+					cardMeta.addParam("param1", "v1").addParam("param2", "v2");
+					cardMeta.method = "POST";
+					cardMeta.postProcess = function() {
+						console.log("xyz - post processing ...");
+					};
+					cardMeta.postProcessDelayed = function() {
+						console.log("xyz - post processing delayed ...");
+					}
+				}
+			*/
+			
+			if(card.type == "REASONS_TO_CALL") {
+				cardMeta.addParam("rtc", true).addParam("count", 113);
+				cardMeta.method = "POST";
+			} else if(card.type == "TRENDING_ENTITIES") {
+				
+			} else if(card.type == "MY_NETWORKS") {
+				
+			}
+					
+			cardMeta.getData()
+			.success(function(res) {
+				if(success) {
+					success(res);
+				}
+				cardMeta.postProcess(res);
+				$timeout(function() { cardMeta.postProcessDelayed(res); }, cardMeta.postProcessDelay);
+			})
+			.error(function(res) {
+				if(error) {
+					error(res);
+				}
+				cardMeta.postProcess(res);
+				$timeout(function() { cardMeta.postProcessDelayed(res); }, cardMeta.postProcessDelay);
+			});
+		};
+	}]);
+	
+	frPaestumApp.directive('frDataBanner', ['$compile', '$http', function($compile, $http) {
+    	return {
+        	restrict: 'E',
+            scope: {
+            	
+           	},
+            controller: ['$scope', function($scope) {
+            	$scope.name = "Yogesh";
+            }],
+            templateUrl: function(elem, attr) {
+				return '../ng-templates/data-banner.html';
+			}
+        };
+ 	}]);
+	
+	$(function() {
+		var $injector = angular.element($("#landing-controller")[0]).injector();
+		$("#jqi-data-banner").on("click", function() {
+			var html = "<fr-data-banner></fr-data-banner>";
+			// use the type inference to auto inject arguments, or use implicit injection
+			$injector.invoke(function($rootScope, $compile) {
+				
+			  html = $compile(html)($rootScope);
+			  console.log(html);
+			  $("#jqi-data-banner").html(html);
+			});
+		});
+	});
+	
+</script>
+
+</html>

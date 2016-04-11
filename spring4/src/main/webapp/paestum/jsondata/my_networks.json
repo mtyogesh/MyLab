@@ -1,0 +1,30 @@
+{
+	"data": {
+		"networks": [
+			{
+				"id": 1,
+				"name": "Yogesh Kumar"
+			},
+			{
+				"id": 2,
+				"name": "Deepak Srivastava"
+			},
+			{
+				"id": 3,
+				"name": "Amit Singh"
+			},
+			{
+				"id": 4,
+				"name": "Amitabh Bachhan"
+			},
+			{
+				"id": 5,
+				"name": "Rejeev Rana"
+			},
+			{
+				"id": 6,
+				"name": "Shubham Gangwar"
+			}
+		]
+	}
+}

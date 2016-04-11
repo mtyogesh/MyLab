@@ -1,0 +1,43 @@
+{
+    "status":"SUCCESS",
+    "message":"Data successfully",
+    "data":{
+        "cardList":[
+            {
+                "id":"c_1",
+                "name":"Who To Call",
+                "type":"WHO_TO_CALL",
+                "template":"../ng-templates/who_to_call.html",
+                "service":"../jsondata/who_to_call.json"
+            },
+            {
+                "id":"c_2",
+                "name":"Reasons To Call",
+                "type":"REASONS_TO_CALL",
+                "template":"../ng-templates/reasons_to_call.html",
+                "service":"../jsondata/reasons_to_call.json"
+            },
+            {
+                "id":"c_3",
+                "name":"Trending Entities",
+                "type":"TRENDING_ENTITIES",
+                "template":"../ng-templates/trending_entities.html",
+                "service":"../jsondata/trending_entities.json"
+            },
+            {
+                "id":"c_4",
+                "name":"My Networks",
+                "type":"MY_NETWORKS",
+                "template":"../ng-templates/my_networks.html",
+                "service":"../jsondata/my_networks.json"
+            },
+            {
+                "id":"c_5",
+                "name":"My Stream",
+                "type":"STREAM",
+                "template":"../ng-templates/stream.html",
+                "service":"../jsondata/docs.json"
+            }
+        ]
+    }
+}

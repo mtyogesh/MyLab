@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" ng-app="frApp">
+<head>
+  <meta charset="utf-8">
+  <title>Hello World Card</title>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+</head>
+<body>
+	<div ng-controller="ChannelController">
+		<fr-card card="{{card}}" channel-id="channel1" card-id="{{card.id}}"></fr-card>
+	</div>
+</body>
+
+<script type="text/javascript">
+
+	var frApp = angular.module('frApp', []);
+
+	frApp.controller('ChannelController', [
+   		'$scope',
+   		'$http',
+   		'$compile',
+   		'$element',
+   		function($scope, $http, $compile, $element) {
+   			var card = {"id": "cardid", "name": "Card Name", "url": "http://a.com"};
+   			$scope.card = card;
+   		}
+   	]);
+	                                        	
+	
+	/*
+	frApp.directive('frCard', function() {
+    	return {
+        	restrict: 'E',
+            scope: {
+            	cardId: "@",
+                channelId: "@",
+                card: "@"
+           	},
+            controller: ['$scope', function($scope) {
+            	$scope.name = "Yogesh";
+            	console.log($scope.card);
+            }],
+            templateUrl: function(elem, attr) {
+            	console.log(attr.card);
+            	console.log(attr.cardId);
+            	
+            	if(attr.cardId == 'cardid') {
+            		return '../ng-templates/parent-card.html';
+            	}            	
+            	if(attr.cardId == 'sub-card1') {
+            		return '../ng-templates/child-card.html';
+            	}
+            	
+            	throw "no valid template defined for card:" + attr.cardId;
+            }
+        };
+ 	});
+	*/
+	
+	frApp.directive('frCard', ['$compile', '$http', function($compile, $http) {
+    	return {
+        	restrict: 'E',
+            scope: {
+            	cardId: "@",
+                channelId: "@",
+                card: "@"
+           	},
+            controller: ['$scope', function($scope) {
+            	$scope.name = "Yogesh";
+            	console.log($scope.card);
+            	$scope.card = JSON.parse($scope.card);
+            	console.log($scope.card.name);
+            }],
+            compile: function(ele, attrs) {
+            	return function ($scope, element, attrs) {
+            		var tplURL;
+       	      	    if(attrs.cardId == 'cardid') {
+       	      	    	tplURL = '../ng-templates/parent-card.html';
+       	        	} else if(attrs.cardId == 'sub-card1') {
+       	        		tplURL = '../ng-templates/child-card.html';
+       	        	}
+       	      	  	if(!tplURL) {
+       	      	    	throw "no valid template defined for card:" + attrs.cardId;
+       	      	  	}
+       	      	  
+           	      	var templateLoader = $http.get(tplURL)
+           	      	.success(function(html) {
+           	      		element.html($compile(html)($scope));
+           	        });
+            	};
+            }
+            
+        };
+ 	}]);
+	
+</script>
+
+</html>

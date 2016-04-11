@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:websocket="http://www.springframework.org/schema/websocket"
+
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd
+    http://www.springframework.org/schema/websocket
+    http://www.springframework.org/schema/websocket/spring-websocket.xsd">
+
+	<context:component-scan base-package="edu.yogi.web.service.impl" />
+
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations" value="classpath:resource/spring_config.properties" />
+	</bean>
+
+	<mvc:annotation-driven content-negotiation-manager="contentNegotiationManager">
+		<mvc:message-converters>
+			<ref bean="mappingJackson2HttpMessageConverter" />
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+
+	<bean id="contentNegotiationManager" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+		<property name="mediaTypes">
+			<map>
+				<entry key="html" value="text/html" />
+				<entry key="json" value="application/json" />
+			</map>
+		</property>
+	</bean>
+	
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	
+	<bean id="mappingJackson2HttpMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+		<property name="supportedMediaTypes" value="application/json" />
+		<property name="objectMapper" ref="jsonObjectMapper" />
+	</bean>
+	<bean id="jsonObjectMapper" class="com.fasterxml.jackson.databind.ObjectMapper">
+		<property name="serializationInclusion" value="NON_NULL" />
+	</bean>
+	
+	<!-- Json related beans ends here -->
+
+	<!-- @rest template http connection management beans @rest template -->
+	<bean id="requestConfigBuilder" class="org.apache.http.client.config.RequestConfig" factory-method="custom">
+	    <property name="socketTimeout" value="${http.client.soc.timeout:300000}" /> 
+	    <property name="connectTimeout" value="${http.client.con.timeout:300000}" /> 
+	</bean>
+	<bean id="requestConfig" factory-bean="requestConfigBuilder" factory-method="build" />
+	
+	<bean id="httpClientConnectionManager" class="org.apache.http.impl.conn.PoolingHttpClientConnectionManager">
+		<property name="defaultMaxPerRoute" value="${http.client.max.connection.per.route:20}" />
+		<property name="maxTotal" value="${http.client.max.connection:100}" />
+	</bean>
+	<bean id="httpClientBuilder" class="org.apache.http.impl.client.HttpClients" factory-method="custom">
+		<property name="defaultRequestConfig" ref="requestConfig" />
+		<property name="connectionManager" ref="httpClientConnectionManager" />
+	</bean>
+	
+	<bean id="httpClient" factory-bean="httpClientBuilder" factory-method="build" />
+	
+	<bean id="restTemplate" class="org.springframework.web.client.RestTemplate" lazy-init="true">
+		<property name="requestFactory">
+			<bean class="org.springframework.http.client.HttpComponentsClientHttpRequestFactory">
+				<constructor-arg ref="httpClient" />
+			</bean>
+		</property>
+		<property name="messageConverters">
+			<list>	
+				<bean id="formHttpMessageConverter"	class="org.springframework.http.converter.FormHttpMessageConverter" />
+				<ref bean="mappingJackson2HttpMessageConverter" />		
+				<bean id="bufferedImageHttpMessageConverter" class="org.springframework.http.converter.BufferedImageHttpMessageConverter" />
+				<bean id="stringHttpMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter" />
+				<bean id="byteArrayHttpMessageConverter" class="org.springframework.http.converter.ByteArrayHttpMessageConverter" />
+			</list>
+		</property>
+	</bean>
+	<!-- @rest template configuration ends here -->
+
+</beans>

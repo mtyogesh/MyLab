@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Hello World, JSON+HTML, DIV+HTML, IFRAME+HTML Cards</title>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.min.js"></script>
+</head>
+<body>
+	<directive bind-value="12" value="7"></directive>
+</body>
+
+<script type="text/javascript">
+	
+var myApp = angular.module('myApp', []);
+var commonTemplate = '<div>{{name}} bind-value is: {{bindValue}} </div><div>{{name}} value is: {{value}} </div><div>{{name}} add one to bind-value is: {{addOneBindValue}} </div><div>{{name}} add one to value is: {{addOneValue}} </div><br/>';
+
+myApp.directive('directive', function () {
+    return {
+        scope: {
+            bindValue: "@",
+            value: "@"
+        },
+        template: commonTemplate + '<br/><sub-directive bind-value="{{value}}" value="{{value}}"></sub-directive>',
+        restrict: 'E',
+        link: function (scope, element, attrs) {
+            scope.name = "Directive";
+            //scope.value = attrs.value;
+            scope.addOneBindValue = parseInt(scope.bindValue) + 1;
+            scope.addOneValue = parseInt(scope.value) + 1;
+        }
+    };
+});
+
+
+myApp.directive('subDirective', function () {
+    return {
+        scope: {
+            bindValue: "@",
+            value: "@"
+        },
+        template: commonTemplate,
+        restrict: 'E',
+        link: function (scope, element, attrs) {   
+            scope.name = "SubDirective";
+            //scope.value = attrs.value;
+            scope.addOneBindValue = parseInt(scope.bindValue) + 1;
+            scope.addOneValue = parseInt(scope.value) + 1;
+        }
+    };
+});
+
+	
+</script>
+
+</html>

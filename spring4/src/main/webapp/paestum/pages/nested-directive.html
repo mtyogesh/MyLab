@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Hello World, JSON+HTML, DIV+HTML, IFRAME+HTML Cards</title>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.min.js"></script>
+</head>
+<body>
+	<directive bind-value="12" value="7"></directive>
+</body>
+
+<script type="text/javascript">
+	
+var myApp = angular.module('myApp', []);
+
+var commonTemplate = '<div>{{name}} bind-value is: {{bindValue}} </div><div>{{name}} value is: {{value}} </div><div>{{name}} add one to bind-value is: {{addOneBindValue}} </div><div>{{name}} add one to value is: {{addOneValue}} </div><br/>';
+    
+myApp.directive('directive', function () {
+    return {
+        scope: {
+            bindValue: "@",
+            value: "@"
+        },
+        //passing scope.value for both bind-value and value of sub-directive illustrating sub-directive's behavior diverges irrespective of how this directive retrieves and passes them
+        template: commonTemplate + '<br/><sub-directive bind-value="{{bindValue + 2}}" value="{{value + 1}}"></sub-directive>',
+        restrict: 'E',
+        link: function (scope, element, attrs) {
+            scope.name = "Directive";
+            /*
+            scope.value = attrs.value;
+            scope.addOneValue = parseInt(scope.value) + 1;
+            scope.$watch('bindValue', function(newVal) {
+                scope.addOneBindValue = parseInt(newVal) + 1;
+            });
+            */
+        }
+    };
+});
+
+
+myApp.directive('subDirective', function () {
+    return {
+        scope: {
+            bindValue: "@",
+            value: "@"
+        },
+        template: commonTemplate,
+        restrict: 'E',
+        link: function (scope, element, attrs) {   
+            scope.name = "SubDirective";
+            /*
+            attrs.$observe('value', function(newVal) {
+                scope.addOneValue = parseInt(newVal) + 1;
+            });
+            scope.$watch('bindValue', function(newVal) {
+                scope.addOneBindValue = parseInt(newVal) + 1;
+            });
+            */
+        }
+    };
+});
+
+	
+</script>
+
+</html>

@@ -1,0 +1,6 @@
+<div style="padding: 5px; border: 2px solid; margin: 20px 0; width: 600px;">
+	<b>{{card.name}}</b>
+	<ul>
+		<li ng-repeat="doc in res.data.docs" class="animate-repeat" ng-class="{'bi-animate': animateStIndex >= $index}" id="{{doc.id}}">{{doc.title}}</li>
+	</ul>
+</div>

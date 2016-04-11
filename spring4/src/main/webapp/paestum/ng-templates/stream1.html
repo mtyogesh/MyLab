@@ -1,0 +1,8 @@
+<div style="padding: 5px; border: 2px solid; margin: 20px 0; width: 600px;">
+	<div id="jqi-my-data"></div>
+	
+	<b>{{card.name}}</b>
+	<ul id="jqi-stream-item">
+		<li ng-repeat="doc in res.data.docs" ng-class="{'animate-repeat': $first}"  id="{{::doc.id}}" ng-bind="::doc.title"></li>
+	</ul>
+</div>

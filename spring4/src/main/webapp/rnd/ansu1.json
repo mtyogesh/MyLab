@@ -1,0 +1,144 @@
+{
+  "eventDate": "September 17, 2015",
+  "eventSource": "Google Inc.",
+  "eventTitle": "eventTitle",
+  "nodeSets": [
+    
+
+
+
+{
+      "name": "Companies",
+      "list": [
+        {
+          "name": "C:GoogleInc",
+          "connections": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "code": "C:GoogleInc",
+          "relevance": 358,
+          "popularity": 358
+        }
+      ]
+    },
+    
+
+
+
+
+
+
+{
+      "name": "Topics",
+      "list": [
+        {
+          "name": "Mobile Solutions",
+          "connections": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "code": "B:Smartphones",
+          "relevance": 2,
+          "popularity": 2
+        },
+        {
+          "name": "Operating System (OS) Software",
+          "connections": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "code": "B:OperatingSystemOSSoftware OR B:MobileOperatingSystems",
+          "relevance": 28,
+          "popularity": 28
+        },
+        {
+          "name": "Mobile Products & Services",
+          "connections": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "code": "B:MobileApplications",
+          "relevance": 2,
+          "popularity": 2
+        },
+        {
+          "name": "Cloud",
+          "connections": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "code": "B:CloudComputing",
+          "relevance": 18,
+          "popularity": 18
+        },
+              ]
+    },
+    
+
+
+
+
+{
+      "name": "Competitors",
+      "list": [
+        {
+          "name": "Microsoft Corporation",
+          "connections": [
+            1
+          ],
+          "code": "C:MicrosoftCorporation",
+          "relevance": 357,
+          "popularity": 357
+        }
+      ]
+    }
+  ],
+  
+
+
+
+
+"titles": [
+    {
+      "title": "New IBM cloud service could help car makers to internet things and cut emissions",
+      "sourceCode": "B:Smartphones",
+      "targetCode": "C:MicrosoftCorporation"
+    },
+     {
+      "title": "Public Cloud Now Generating Over $20B in Quarterly Revenues for IT Companies",
+      "sourceCode": "B:OperatingSystemOSSoftware",
+      "targetCode": "C:MicrosoftCorporation"
+    },
+    {
+      "title": "Eight Wire Ltd. simplifies moving and managing data in the cloud",
+      "sourceCode": "B:MobileOperatingSystems",
+      "targetCode": "C:MicrosoftCorporation"
+    },
+  {
+      "title": "Eight Wire Ltd. simplifies moving and managing data in the cloud",
+      "sourceCode": "B:MobileApplications",
+      "targetCode": "C:MicrosoftCorporation"
+    },
+  {
+      "title": "Led by Unica Founder, Allego Tackles Video Training for Salespeople",
+      "sourceCode": "B:CloudComputing",
+      "targetCode": "C:MicrosoftCorporation"
+    }
+  ]
+}

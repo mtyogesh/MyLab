@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cards View Sample</title>
+	
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+	
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-size: 14px;
+		}
+		.card-cont {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			width: 600px;
+		}
+		.card {
+			float: left;
+			margin: 10px 0 0 20px;
+			padding: 2px;
+			border: 2px solid #333333;
+			background-color: #EEECEC;
+			width: 150px;
+			height: 100px;
+			text-align: center;
+			vertical-align: middle;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.order-cont {
+			clear: both;
+			margin-top: 5px;
+			padding: 2px;
+			text-align: center;
+			border: 1px solid #EDECE6;
+		}
+		.order-cards {
+			font-weight: bold;
+		}
+	</style>
+	
+	<script type="text/javascript">
+		$(function() {
+			$("#jq-fr-cards").sortable()
+			.on("sortupdate", function( event, ui ) {
+				printCardOrder();
+				$("#jq-cards-order").css({backgroundColor: '#FBED22', fontSize: 16}).animate({backgroundColor: '#FFFFFF', fontSize: 14}, 2000);
+			});
+			
+			function printCardOrder() {
+				var arr = [];
+				$("#jq-fr-cards li").each(function() {
+					arr.push( $(this).attr("id") );
+				});
+				$("#jq-cards-order").html(arr.join(", "));
+			}
+			printCardOrder();
+			
+		});
+	</script>
+	
+</head>
+<body>
+
+	<ul id="jq-fr-cards" class="card-cont">
+		<li class="card" id="c1">Card 1</li >
+		<li class="card" id="c2">Card 2</li>
+		<li class="card" id="c3">Card 3</li>
+		<li class="card" id="c4">Card 4</li>
+		<li class="card" id="c5">Card 5</li>
+		<li class="card" id="c6">Card 6</li>
+		<li class="card" id="c7">Card 7</li>
+	</ul>
+
+	<div class="order-cont">Current Order: <span class="order-cards" id="jq-cards-order"></span></div>
+
+</body>
+</html>

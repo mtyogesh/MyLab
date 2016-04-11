@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" ng-app="frApp">
+<head>
+  <meta charset="utf-8">
+  <title>Hello World, JSON+HTML, DIV+HTML, IFRAME+HTML Cards</title>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.min.js"></script>
+</head>
+<body>
+	<fr-channel id="ch_1"></fr-channel>
+</body>
+
+<script type="text/javascript">
+	var channels = [{"id": "ch_1", "name": "Accounts", "type": "ACCOUNTS"}];
+	var cards = [];
+	channels[0].cards = cards;
+	cards.push({"id": "c_1", "name": "Who To Call", "type": "WHO_TO_CALL", "template": "../ng-templates/who_to_call.html", "service": "../jsondata/who_to_call.json"});
+	cards.push({"id": "c_2", "name": "Reasons To Call", "type": "REASONS_TO_CALL", "template": "../ng-templates/reasons_to_call.html", "service": "../jsondata/reasons_to_call.json"});
+	cards.push({"id": "c_3", "name": "Trending Entities", "type": "TRENDING_ENTITIES", "template": "../ng-templates/trending_entities.html", "service": "../jsondata/trending_entities.json"});
+	cards.push({"id": "c_4", "name": "My Networks", "type": "MY_NETWORKS", "template": "../ng-templates/my_networks.html", "service": "../jsondata/my_networks.json"});
+	
+	var frApp = angular.module('frApp', []);
+
+	frApp.directive('frChannel', ['$compile', '$http', function($compile, $http) {
+    	return {
+        	restrict: 'E',
+            scope: {
+                channelId: "@id"
+           	},
+            controller: ['$scope', function($scope) {
+            	angular.forEach(channels, function(ch) {
+            		if(ch.id == $scope.channelId) {
+            			$scope.currentChannel = ch;
+            			return;
+            		}
+            	});
+            }],
+            template: "<fr-card ng-repeat='c in currentChannel.cards' card='{{c}}'></fr-card>"
+        };
+	}]);    
+	
+	frApp.directive('frCard', ['$compile', '$http', function($compile, $http) {
+    	return {
+        	restrict: 'E',
+            scope: {
+            	cardJSON: "@card"
+           	},
+            controller: ['$scope', function($scope) {
+            	$scope.card = angular.fromJson($scope.cardJSON);
+            	$http.get($scope.card.service)
+            	.success(function(res) {
+            		$scope.res = res;	
+            	});
+            }],
+            compile: function(ele, attrs) {
+            	return function ($scope, element, attrs) {
+           	      	var templateLoader = $http.get($scope.card.template)
+           	      	.success(function(html) {
+           	      		element.html($compile(html)($scope));
+           	        });
+            	};
+            }
+            
+        };
+ 	}]);
+	
+</script>
+
+</html>

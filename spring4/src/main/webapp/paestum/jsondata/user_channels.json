@@ -1,0 +1,26 @@
+{
+    "status":"SUCCESS",
+    "message":"Data successfully",
+    "data":{
+        "channelList":[
+            {
+            	"name": "Accounts",
+            	"type": "ACCOUNTS",
+            	"id": 100,
+            	"meta": {"email": true, "twitter": true, "chatter": true, "yammer": true}
+            },            
+            {
+            	"name": "Solutions",
+            	"type": "SOLUTIONS",
+            	"id": 101,
+            	"meta": {"email": true, "twitter": true, "chatter": false, "yammer": false}
+            },            
+            {
+            	"name": "Verticals",
+            	"type": "VERTICALS",
+            	"id": 102,
+            	"meta": {"email": true, "twitter": false, "chatter": true, "yammer": true}
+            }
+        ]
+    }
+}

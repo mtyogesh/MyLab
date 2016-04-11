@@ -1,0 +1,120 @@
+{
+  "eventSource": "Google Inc",
+  "eventDate": "July 7, 2015",
+  "eventTitle": "Oramed to raise $50m from Chinese investors",
+  "nodeSets": [
+    {
+      "name": "Companies",
+      "list": [
+        {
+          "code": 659176,
+          "name": "Google Inc",
+          "relevance": 66,
+          "popularity": 15,
+          "connections": [
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+        
+        
+      ]
+    },
+    {
+      "name": "Competitor",
+      "list": [
+        {
+          "code": 1220531,
+          "name": "Natural Gas - Discovery",
+          "relevance": 0,
+          "popularity": 86,
+          "connections": [
+            0,
+            45,
+            0,
+            0
+          ]
+        },
+        {
+          "code": 1470752,
+          "name": "Agricultural Pesticide Industry Trends",
+          "relevance": 0,
+          "popularity": 92,
+          "connections": [
+            5,
+            0,
+            0,
+            70
+          ]
+        },
+        {
+          "code": 294483,
+          "name": "Healthcare Regulatory & Government Activity",
+          "relevance": 0,
+          "popularity": 2675,
+          "connections": [
+            7,
+            7,
+            1,
+            88
+          ]
+        },
+        {
+          "code": 497168,
+          "name": "Endoscopic Instrument Industry Trends",
+          "relevance": 0,
+          "popularity": 79,
+          "connections": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business Lines",
+      "list": [
+        {
+          "code": 514423,
+          "name": "Chemicals Manufacturing & Related Services",
+          "relevance": 1000,
+          "popularity": 467,
+          "connections": [
+            2
+          ]
+        },
+        {
+          "code": 516709,
+          "name": "Oil & Gas Exploration and Production",
+          "relevance": 0,
+          "popularity": 2640,
+          "connections": [
+            1
+          ]
+        },
+        {
+          "code": 515269,
+          "name": "Diagnostics Medical Equipment",
+          "relevance": 0,
+          "popularity": 144,
+          "connections": [
+            0          ]
+        },
+        {
+          "code": 519892,
+          "name": "Life Science Industry Investment",
+          "relevance": 75,
+          "popularity": 523,
+          "connections": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "titles":    [ ]
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8>
+<meta name=description>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>
+	FirstRain Topic Explorer
+	
+</title>
+<link rel=stylesheet href=main_1.css>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<body>
+	<!--[if lt IE 10]>
+	<p class="browserupgrade">
+		You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+	</p>
+	<![endif]-->
+	<div id=pagewrap>
+		<header>
+			<div id=hcTitle class=hcTitle></div>
+			<div id=hcSubTitle class=hcSubTitle></div>
+		</header>
+		<section id=leftNav>
+			<ul style="padding-left: 0">
+				<li id=hcListItem1 class=hcListItem	onmouseover=onMouseOverNavList(1) onmouseout=onMouseOutNavList()></li>
+				<li id=hcListItem2 class=hcListItem	onmouseover=onMouseOverNavList(2) onmouseout=onMouseOutNavList()></li>
+				<li id=hcListItem3 class=hcListItem	onmouseover=onMouseOverNavList(3) onmouseout=onMouseOutNavList()></li>
+			</ul>
+			<table id=navListTable class=hcTable></table>
+		</section>
+		<section id=chartArea>
+			<div id=hcChartTitle class=hcChartTitle></div>
+			<svg id=svgChart></svg>
+		</section>
+		<aside id=contentArea>
+			<table id=contentAreaTable class=fadeHidden style="float: left"></table>
+		</aside>
+	</div>
+	<script src=vendor_1.js></script>
+	<script src=main_1.js></script>
+	
+	<script>
+		loadData("ansu1.json", initArcBubbleChart);
+	</script>
+</body>
+</html>

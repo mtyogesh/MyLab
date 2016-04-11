@@ -1,0 +1,2954 @@
+{
+   "eventSource": "Globes Online",
+   "eventDate": "July 7, 2015",
+   "eventTitle": "Oramed to raise $50m from Chinese investors",
+   "nodeSets":    [
+            {
+         "name": "Companies",
+         "list":          [
+                        {
+               "code": 659176,
+               "name": "China National Chemical Corporation",
+               "relevance": 66,
+               "popularity": 15,
+               "connections":                [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+               ]
+            },
+                        {
+               "code": 3186899,
+               "name": "Endymed Ltd",
+               "relevance": 33,
+               "popularity": 1,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+               ]
+            },
+                        {
+               "code": 561452,
+               "name": "Delek Group Ltd.",
+               "relevance": 66,
+               "popularity": 20,
+               "connections":                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+               ]
+            },
+                        {
+               "code": 308419,
+               "name": "Pirelli & C. SpA",
+               "relevance": 0,
+               "popularity": 1,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 642913,
+               "name": "Phoenix Holdings Ltd.",
+               "relevance": 66,
+               "popularity": 9,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  8,
+                  0,
+                  1
+               ]
+            },
+                        {
+               "code": 2423338,
+               "name": "Tnuva Food Industries Agricultural Co-Op. In Israel Ltd.",
+               "relevance": 66,
+               "popularity": 2,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+               ]
+            },
+                        {
+               "code": 377515,
+               "name": "Bright Food (Group) Co., Ltd",
+               "relevance": 0,
+               "popularity": 5,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 575591,
+               "name": "Bright Dairy & Food Company Ltd",
+               "relevance": 0,
+               "popularity": 1,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 661945,
+               "name": "TNUVA Food Industries Ltd.",
+               "relevance": 66,
+               "popularity": 3,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+               ]
+            },
+                        {
+               "code": 540540,
+               "name": "Fosun International Ltd.",
+               "relevance": 0,
+               "popularity": 57,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  7,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 639709,
+               "name": "Excellence Investments Limited",
+               "relevance": 0,
+               "popularity": 0,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 1562241,
+               "name": "Check-Cap Ltd.",
+               "relevance": 33,
+               "popularity": 8,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+               ]
+            },
+                        {
+               "code": 309939,
+               "name": "Dow AgroSciences LLC",
+               "relevance": 0,
+               "popularity": 71,
+               "connections":                [
+                  0,
+                  13,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 306364,
+               "name": "Given Imaging Ltd.",
+               "relevance": 0,
+               "popularity": 0,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 649043,
+               "name": "Guangxi Wuzhou Zhongheng Group Co. Ltd.",
+               "relevance": 0,
+               "popularity": 6,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2
+               ]
+            },
+                        {
+               "code": 320767,
+               "name": "ADAMA Agricultural Solutions Ltd.",
+               "relevance": 66,
+               "popularity": 11,
+               "connections":                [
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+               ]
+            },
+                        {
+               "code": 576371,
+               "name": "Oramed Pharmaceuticals Inc.",
+               "relevance": 33,
+               "popularity": 23,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  3
+               ]
+            }
+         ]
+      },
+            {
+         "name": "Topics",
+         "list":          [
+                        {
+               "code": 1220531,
+               "name": "Natural Gas - Discovery",
+               "relevance": 0,
+               "popularity": 86,
+               "connections":                [
+                  0,
+                  45,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 1470752,
+               "name": "Agricultural Pesticide Industry Trends",
+               "relevance": 0,
+               "popularity": 92,
+               "connections":                [
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  70
+               ]
+            },
+                        {
+               "code": 294483,
+               "name": "Healthcare Regulatory & Government Activity",
+               "relevance": 0,
+               "popularity": 2675,
+               "connections":                [
+                  7,
+                  7,
+                  1,
+                  88,
+                  25,
+                  2,
+                  0,
+                  6,
+                  0
+               ]
+            },
+                        {
+               "code": 497168,
+               "name": "Endoscopic Instrument Industry Trends",
+               "relevance": 0,
+               "popularity": 79,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 265475,
+               "name": "Dairy Industry Trends",
+               "relevance": 0,
+               "popularity": 696,
+               "connections":                [
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  694,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 1539503,
+               "name": "Chemical Demand",
+               "relevance": 0,
+               "popularity": 449,
+               "connections":                [
+                  115,
+                  5,
+                  0,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  28
+               ]
+            },
+                        {
+               "code": 1489983,
+               "name": "Asset Management Administration Services",
+               "relevance": 0,
+               "popularity": 23,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0
+               ]
+            },
+                        {
+               "code": 512781,
+               "name": "Life Sciences Industry Investment Trends",
+               "relevance": 67,
+               "popularity": 85,
+               "connections":                [
+                  1,
+                  0,
+                  0,
+                  82,
+                  0,
+                  0,
+                  0,
+                  10,
+                  0
+               ]
+            },
+                        {
+               "code": 297193,
+               "name": "Investment Trends",
+               "relevance": 42,
+               "popularity": 1637,
+               "connections":                [
+                  4,
+                  5,
+                  2,
+                  37,
+                  0,
+                  0,
+                  0,
+                  125,
+                  1
+               ]
+            },
+                        {
+               "code": 295642,
+               "name": "Food & Beverage Pricing Trends",
+               "relevance": 0,
+               "popularity": 315,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  42,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 290971,
+               "name": "Diabetes",
+               "relevance": 25,
+               "popularity": 320,
+               "connections":                [
+                  0,
+                  0,
+                  1,
+                  1,
+                  138,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            }
+         ]
+      },
+            {
+         "name": "Business Lines",
+         "list":          [
+                        {
+               "code": 514423,
+               "name": "Chemicals Manufacturing & Related Services",
+               "relevance": 1000,
+               "popularity": 467,
+               "connections":                [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0
+               ]
+            },
+                        {
+               "code": 516709,
+               "name": "Oil & Gas Exploration and Production",
+               "relevance": 0,
+               "popularity": 2640,
+               "connections":                [
+                  1,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 515269,
+               "name": "Diagnostics Medical Equipment",
+               "relevance": 0,
+               "popularity": 144,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 519892,
+               "name": "Life Science Industry Investment",
+               "relevance": 75,
+               "popularity": 523,
+               "connections":                [
+                  1,
+                  1,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2
+               ]
+            },
+                        {
+               "code": 515716,
+               "name": "Anti-Diabetes Drugs",
+               "relevance": 0,
+               "popularity": 249,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  4
+               ]
+            },
+                        {
+               "code": 520528,
+               "name": "Milk & Dairy Products",
+               "relevance": 0,
+               "popularity": 787,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 1695924,
+               "name": "Processed Milk Products",
+               "relevance": 0,
+               "popularity": 0,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 513673,
+               "name": "Asset Management",
+               "relevance": 0,
+               "popularity": 1379,
+               "connections":                [
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            },
+                        {
+               "code": 513400,
+               "name": "Agrochemical Products",
+               "relevance": 0,
+               "popularity": 250,
+               "connections":                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  30,
+                  0,
+                  0,
+                  2,
+                  0
+               ]
+            }
+         ]
+      }
+   ],
+   "titles":    [
+            {
+         "sourceCode": 515269,
+         "targetCode": 659176,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 3186899,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 561452,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 642913,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 2423338,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 575591,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 661945,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 1562241,
+         "title": "Check-Cap Announces Extraordinary General Meeting of Shareholders to be held on August 13, 2015"
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 309939,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 649043,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 320767,
+         "title": ""
+      },
+            {
+         "sourceCode": 515269,
+         "targetCode": 576371,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 659176,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 3186899,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 561452,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 642913,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 2423338,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 575591,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 661945,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 1562241,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 309939,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 649043,
+         "title": "China's Wuzhou to buy 10 percent stake in Isreali Oramed"
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 320767,
+         "title": ""
+      },
+            {
+         "sourceCode": 515716,
+         "targetCode": 576371,
+         "title": "Sinopharm Capital-Hefei Signs Letter of Intent with Oramed for $50,000,000 Investment and Licensing Deal in China"
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 512781,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 297193,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 308419,
+         "targetCode": 290971,
+         "title": ""
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 514423,
+         "title": "Food for sleep?"
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 516709,
+         "title": "Wyke Farms sends green gas to grid and secures position as �greenest� cheese brand"
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 515269,
+         "title": ""
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 519892,
+         "title": ""
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 515716,
+         "title": ""
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 520528,
+         "title": "Dairy Crest Announces UK Milk Price Increase"
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 513673,
+         "title": ""
+      },
+            {
+         "sourceCode": 265475,
+         "targetCode": 513400,
+         "title": ""
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 514423,
+         "title": "Chemical Industries Association : Press Release"
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 516709,
+         "title": ""
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 515269,
+         "title": ""
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 519892,
+         "title": "Knight Therapeutics : Amplifies Its Innovative Product Sourcing Strategy"
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 515716,
+         "title": ""
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 520528,
+         "title": ""
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 513673,
+         "title": "Language Access Network Receives Growth Capital from Kayne Partners"
+      },
+            {
+         "sourceCode": 512781,
+         "targetCode": 513400,
+         "title": ""
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 265475,
+         "title": "Tnuva lowers prices on dairy products"
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 2423338,
+         "targetCode": 290971,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 659176,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 3186899,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 561452,
+         "title": "Plaza Centers appoints Akiva Azulay as president and CEO"
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 642913,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 2423338,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 575591,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 661945,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 1562241,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 309939,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 649043,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 320767,
+         "title": ""
+      },
+            {
+         "sourceCode": 513673,
+         "targetCode": 576371,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 659176,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 3186899,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 561452,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 642913,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 2423338,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 575591,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 661945,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 1562241,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 309939,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 649043,
+         "title": ""
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 320767,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 519892,
+         "targetCode": 576371,
+         "title": "Oramed sign Letter of intent for agreement with SinoPharm & Hefei Life Science"
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 512781,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 297193,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 639709,
+         "targetCode": 290971,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 1562241,
+         "targetCode": 290971,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 514423,
+         "title": "BIO World Congress on Industrial Biotechnology Special Topic Workshops to Focus on Current Investment Trends"
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 516709,
+         "title": "White House says open to working with Congress on disease research bill"
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 515269,
+         "title": "BG Medicine gets FDA blessing for automated chronic heart failure test"
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 519892,
+         "title": "Betting on biotech: Activists want SEC to regulate volatile market"
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 515716,
+         "title": "EXCLUSIVE: Thrasos May Seek Breakthrough Status for Kidney Injury Drug, CEO Says"
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 520528,
+         "title": "Raw milk safety decision expected in July"
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 513673,
+         "title": "Macquarie Investment Management hires head of EMEA consultant relations"
+      },
+            {
+         "sourceCode": 294483,
+         "targetCode": 513400,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 514423,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 516709,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 515269,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 519892,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 515716,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 520528,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 513673,
+         "title": ""
+      },
+            {
+         "sourceCode": 497168,
+         "targetCode": 513400,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 659176,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 3186899,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 561452,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 642913,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 2423338,
+         "title": "Tnuva lowers prices on dairy products"
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 575591,
+         "title": "Bright Dairy & Food : to Absorb Dairy Assets"
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 661945,
+         "title": "Tnuva lowers prices on dairy products"
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 1562241,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 309939,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 649043,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 320767,
+         "title": ""
+      },
+            {
+         "sourceCode": 520528,
+         "targetCode": 576371,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 512781,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 297193,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 649043,
+         "targetCode": 290971,
+         "title": "China's Wuzhou to buy 10 percent stake in Isreali Oramed"
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 514423,
+         "title": ""
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 516709,
+         "title": ""
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 515269,
+         "title": ""
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 519892,
+         "title": ""
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 515716,
+         "title": ""
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 520528,
+         "title": "Almond products attractive to major food companies while prices rise"
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 513673,
+         "title": ""
+      },
+            {
+         "sourceCode": 295642,
+         "targetCode": 513400,
+         "title": ""
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 514423,
+         "title": ""
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 516709,
+         "title": ""
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 515269,
+         "title": "in vitro diagnostics market worth 69 1 billion by 2017"
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 519892,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 515716,
+         "title": "China's Wuzhou to buy 10 percent stake in Isreali Oramed"
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 520528,
+         "title": ""
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 513673,
+         "title": ""
+      },
+            {
+         "sourceCode": 290971,
+         "targetCode": 513400,
+         "title": ""
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 514423,
+         "title": ""
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 516709,
+         "title": "Repsol, Eni launch first gas field off Venezuela"
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 515269,
+         "title": ""
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 519892,
+         "title": ""
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 515716,
+         "title": ""
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 520528,
+         "title": ""
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 513673,
+         "title": ""
+      },
+            {
+         "sourceCode": 1220531,
+         "targetCode": 513400,
+         "title": ""
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 1470752,
+         "title": "Adama�s NIMITZ Nematicide Approve for Use in Israel"
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 659176,
+         "targetCode": 290971,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 659176,
+         "title": "Russia's Rosneft Inks Major Deal With Indian Oil Company in Bid to Counter Sanctions"
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 3186899,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 561452,
+         "title": "Hundreds in new Tel Aviv protest over US-Israeli natural gas deal"
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 642913,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 2423338,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 575591,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 661945,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 1562241,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 309939,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 649043,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 320767,
+         "title": ""
+      },
+            {
+         "sourceCode": 516709,
+         "targetCode": 576371,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 3186899,
+         "targetCode": 290971,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 1220531,
+         "title": "Hundreds protest over US-Israeli natural gas deal"
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 561452,
+         "targetCode": 290971,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 642913,
+         "targetCode": 290971,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 514423,
+         "title": ""
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 516709,
+         "title": ""
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 515269,
+         "title": ""
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 519892,
+         "title": ""
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 515716,
+         "title": ""
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 520528,
+         "title": ""
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 513673,
+         "title": "The Hendre Group selects Real Asset Management's component accounting software to meet FRS 102 and SORP requirements"
+      },
+            {
+         "sourceCode": 1489983,
+         "targetCode": 513400,
+         "title": ""
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 514423,
+         "title": "Adaro Energy Tbk PT : Japanese Mitsui eyes coal gasification projects in Indonesia"
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 516709,
+         "title": "China to increase investment in Sudan's oil industry: ambassador"
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 515269,
+         "title": "Rangatira acquires majority stake in Bio-Strategy"
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 519892,
+         "title": "British Tech Sector Set For �650m Investment From Cisco"
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 515716,
+         "title": ""
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 520528,
+         "title": ""
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 513673,
+         "title": "CenterSquare Investment Management Appoints Industry Veteran Scott Crowe to Newly Created Chief Investment Strategist Role"
+      },
+            {
+         "sourceCode": 297193,
+         "targetCode": 513400,
+         "title": "Arysta LifeScience Adds Banzai to Improve Cocoa Yields"
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 659176,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 3186899,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 561452,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 642913,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 2423338,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 575591,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 661945,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 1562241,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 309939,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 649043,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 320767,
+         "title": ""
+      },
+            {
+         "sourceCode": 1695924,
+         "targetCode": 576371,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 512781,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 297193,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 377515,
+         "targetCode": 290971,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 265475,
+         "title": "Bright Dairy & Food : to Absorb Dairy Assets"
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 512781,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 297193,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 575591,
+         "targetCode": 290971,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 659176,
+         "title": "Adama gets Israeli approval to market its nematicide Nimitz"
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 3186899,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 561452,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 642913,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 2423338,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 575591,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 661945,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 1562241,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 309939,
+         "title": "EPA Falters Again in Banning Remaining Uses of a Highly Toxic and Unnecessary Insecticide"
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 649043,
+         "title": ""
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 320767,
+         "title": "Adama gets Israeli approval to market its nematicide Nimitz"
+      },
+            {
+         "sourceCode": 514423,
+         "targetCode": 576371,
+         "title": ""
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 265475,
+         "title": "Tnuva lowers prices on dairy products"
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 661945,
+         "targetCode": 290971,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 512781,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 297193,
+         "title": "Fosun Completes Acquisition of Meadowbrook Insurance Group"
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 540540,
+         "targetCode": 290971,
+         "title": ""
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 514423,
+         "title": "Bayer CropScience To Invest $50 Million, Double Capacity Of Its Liberty Plant In Michigan"
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 516709,
+         "title": ""
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 515269,
+         "title": ""
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 519892,
+         "title": ""
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 515716,
+         "title": ""
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 520528,
+         "title": ""
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 513673,
+         "title": ""
+      },
+            {
+         "sourceCode": 1470752,
+         "targetCode": 513400,
+         "title": "Bayer CropScience To Invest $50 Million, Double Capacity Of Its Liberty Plant In Michigan"
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 1470752,
+         "title": "EPA PLANS TO BAN CONTROVERSIAL PESTICIDE"
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 1539503,
+         "title": "Global Agrochemicals Market - Size, Trends, Share Analysis and Industry Forecast to 2020"
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 512781,
+         "title": ""
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 297193,
+         "title": "Arysta LifeScience Adds Banzai to Improve Cocoa Yields"
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 309939,
+         "targetCode": 290971,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 512781,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 297193,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 306364,
+         "targetCode": 290971,
+         "title": ""
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 514423,
+         "title": "SABIC and SK Global Chemical invest $640m in joint venture"
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 516709,
+         "title": "Prices for industrial production sold in Lithuania reduced by 0.5% in June"
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 515269,
+         "title": ""
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 519892,
+         "title": "Chemical Industries Association : Press Release"
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 515716,
+         "title": "\"Safe\" Plastic Alternatives Linked to Scary Health Problems"
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 520528,
+         "title": "Profitable nitrogen fertiliser decisions"
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 1695924,
+         "title": ""
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 513673,
+         "title": ""
+      },
+            {
+         "sourceCode": 1539503,
+         "targetCode": 513400,
+         "title": "Bayer CropScience To Invest $50 Million, Double Capacity Of Its Liberty Plant In Michigan"
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 1470752,
+         "title": "Global Agrochemicals Market - Size, Trends, Share Analysis and Industry Forecast to 2020"
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 1539503,
+         "title": "Global Agrochemicals Market - Size, Trends, Share Analysis and Industry Forecast to 2020"
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 320767,
+         "targetCode": 290971,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 1220531,
+         "title": ""
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 1470752,
+         "title": ""
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 294483,
+         "title": ""
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 497168,
+         "title": ""
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 265475,
+         "title": ""
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 1539503,
+         "title": ""
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 1489983,
+         "title": ""
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 512781,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 297193,
+         "title": "Oramed to raise $50m from Chinese investors"
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 295642,
+         "title": ""
+      },
+            {
+         "sourceCode": 576371,
+         "targetCode": 290971,
+         "title": "Israeli Oramed to raise $50 million from two Chinese investors"
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 659176,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 3186899,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 561452,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 308419,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 642913,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 2423338,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 377515,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 575591,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 661945,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 540540,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 639709,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 1562241,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 309939,
+         "title": "Environmental Respect Awards Interactive Edition Released"
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 306364,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 649043,
+         "title": ""
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 320767,
+         "title": "Global Agrochemicals Market - Size, Trends, Share Analysis and Industry Forecast to 2020"
+      },
+            {
+         "sourceCode": 513400,
+         "targetCode": 576371,
+         "title": ""
+      }
+   ]
+}

@@ -1,0 +1,30 @@
+{
+	"data": {
+		"reasons": [
+			{
+				"id": 1,
+				"name": "Reasons1"
+			},
+			{
+				"id": 2,
+				"name": "Reasons2"
+			},
+			{
+				"id": 3,
+				"name": "Reasons3"
+			},
+			{
+				"id": 4,
+				"name": "Reasons4"
+			},
+			{
+				"id": 5,
+				"name": "Reasons5"
+			},
+			{
+				"id": 6,
+				"name": "Reasons6"
+			}
+		]
+	}
+}

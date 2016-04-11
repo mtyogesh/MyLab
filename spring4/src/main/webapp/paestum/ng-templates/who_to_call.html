@@ -1,0 +1,8 @@
+<div style="padding: 5px; border: 2px solid; margin: 20px 0; width: 600px;">
+	<b>{{card.name}}</b>
+	<social-sharing card='card' channel_to_render='channelToRender'></social-sharing>
+	<img alt="" ng-attr-src="{{$root.imgPath}}/images/Accelerometer_0_B.png" />
+	<ul>
+		<li ng-repeat="ca in res.data.calls" id="{{ca.id}}">{{ca.name}}</li>
+	</ul>
+</div>

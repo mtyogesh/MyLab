@@ -1,0 +1,212 @@
+{
+
+    "eventSource": "Microsoft Corporation",
+    "eventDate": "August 13, 2015",
+    "eventTitle": "eventTitle",
+    "nodeSets": 
+
+[
+
+{
+
+    "name": "Companies",
+    "list": 
+
+[
+
+{
+
+    "name": "Microsoft Corporation",
+    "connections": 
+
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "code": 111,
+            "relevance": 4,
+            "popularity": 12
+        }
+    ]
+
+},
+{
+
+    "name": "Topics",
+    "list": 
+
+[
+
+{
+
+    "name": "Mobile Application Market",
+    "connections": 
+
+    [
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "code": 112,
+    "relevance": 4,
+    "popularity": 12
+
+},
+{
+
+    "name": "New Product Launches",
+    "connections": 
+
+    [
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "code": 113,
+    "relevance": 4,
+    "popularity": 12
+
+},
+{
+
+    "name": "Cloud Computing Trends",
+    "connections": 
+
+    [
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "code": 114,
+    "relevance": 4,
+    "popularity": 12
+
+},
+{
+
+    "name": "Channel Partners",
+    "connections": 
+
+    [
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "code": 115,
+    "relevance": 4,
+    "popularity": 12
+
+},
+{
+
+    "name": "Mobile Phone Industry Trends",
+    "connections": 
+
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "code": 116,
+            "relevance": 4,
+            "popularity": 12
+        }
+    ]
+
+},
+{
+
+    "name": "Competitors",
+    "list": 
+
+[
+
+{
+
+    "name": "Nokia Corporation",
+    "connections": 
+
+    [
+        1
+    ],
+    "code": 117,
+    "relevance": 4,
+    "popularity": 12
+
+},
+{
+
+    "name": "Apple Inc.",
+    "connections": 
+
+    [
+        1
+    ],
+    "code": 118,
+    "relevance": 4,
+    "popularity": 12
+
+},
+{
+
+    "name": "Google Inc.",
+    "connections": 
+
+    [
+        1
+    ],
+    "code": 119,
+    "relevance": 4,
+    "popularity": 12
+
+},
+{
+
+    "name": "Intel Corporation",
+    "connections": 
+
+    [
+        1
+    ],
+    "code": 120,
+    "relevance": 4,
+    "popularity": 12
+
+},
+{
+
+    "name": "International Business Machines Corporation",
+    "connections": 
+
+                    [
+                        1
+                    ],
+                    "code": 121,
+                    "relevance": 4,
+                    "popularity": 12
+                }
+            ]
+        }
+    ],
+    
+    "titles":    [
+            {
+         "sourceCode": 111,
+         "targetCode": 111,
+         "title": ""
+      }]
+
+}

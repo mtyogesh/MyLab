@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" ng-app="frApp">
+<head>
+  <meta charset="utf-8">
+  <title>JSON+HTML Card</title>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+</head>
+<body>
+	<fr-card channel-id="channel1" card-id="card1"></fr-card>
+</body>
+
+<script type="text/javascript">
+
+	var frApp = angular.module('frApp', []);
+
+	frApp.directive('frCard', function() {
+    	return {
+        	restrict: 'E',
+            scope: {
+            	cardId: "@",
+                channelId: "@"
+           	},
+            controller: ['$scope', '$http', function($scope, $http) {
+            	$http.get('../jsondata/docs.json?channelId=' + $scope.channelId + "&cardId=" + $scope.cardId)
+                .success(function(res) {
+                	$scope.res = res;
+				});
+            }],
+            templateUrl: function(elem, attr) {
+            	return '../ng-templates/json-html.html';
+            }
+        };
+ });
+
+
+</script>
+
+</html>
