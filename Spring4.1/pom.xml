@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework</groupId>
-	<artifactId>gs-spring-boot</artifactId>
-	<version>0.1.0</version>
+	<artifactId>spring</artifactId>
+	<version>4.1</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -13,10 +13,22 @@
 		<version>1.3.3.RELEASE</version>
 	</parent>
 
+	<packaging>war</packaging>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+		        <exclusion>
+		            <groupId>org.springframework.boot</groupId>
+		            <artifactId>spring-boot-starter-logging</artifactId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-log4j</artifactId>
 		</dependency>
 	</dependencies>
 
@@ -24,13 +36,36 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				
+				<executions>
+		          <execution>
+		            <goals>
+		              <goal>repackage</goal>
+		            </goals>
+		          </execution>
+		        </executions>
+		        <configuration>
+		          <classifier>boot</classifier>
+		        </configuration>
 			</plugin>
+			
+			<!--WAR packaging options-->
+	      <plugin>
+	        <groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-war-plugin</artifactId>
+	        <version>2.6</version>
+	        <configuration>
+	          <failOnMissingWebXml>false</failOnMissingWebXml>
+	        </configuration>
+	      </plugin>
+			
 		</plugins>
 	</build>
 
