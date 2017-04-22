@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.yogi.web.controller.HomeControllerTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 2.637 sec <<< FAILURE!
-addDocWithValidationError(edu.yogi.web.controller.HomeControllerTest)  Time elapsed: 0.015 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 2.92 sec <<< FAILURE!
+addDocWithValidationError(edu.yogi.web.controller.HomeControllerTest)  Time elapsed: 0.009 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:94)
 	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
@@ -198,7 +198,7 @@ Caused by: java.lang.IllegalStateException: No suitable default RequestUpgradeSt
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
 	... 73 more
 
-mathAdd(edu.yogi.web.controller.HomeControllerTest)  Time elapsed: 0.003 sec  <<< ERROR!
+mathAdd(edu.yogi.web.controller.HomeControllerTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:94)
 	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
@@ -296,7 +296,7 @@ Caused by: java.lang.IllegalStateException: No suitable default RequestUpgradeSt
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
 	... 73 more
 
-validateContext(edu.yogi.web.controller.HomeControllerTest)  Time elapsed: 0.002 sec  <<< ERROR!
+validateContext(edu.yogi.web.controller.HomeControllerTest)  Time elapsed: 0.019 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:94)
 	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
