@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/app/environments/environment.prod.ts"],"names":[],"mappings":";;AAAa,QAAA,WAAW,GAAG;IACzB,UAAU,EAAE,IAAI;CACjB,CAAC","file":"environment.prod.js","sourcesContent":["export const environment = {\n  production: true\n};\n"],"sourceRoot":"/src"}

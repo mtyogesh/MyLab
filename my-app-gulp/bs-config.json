@@ -1,0 +1,11 @@
+{
+  "port": 9050,
+  "files": [
+    "build/**/*.{html,htm,css,js}"
+  ],
+  "server": {
+    "baseDir": "build"
+  },
+  "browser": ["google chrome", "firefox"],
+  "open": false
+}
